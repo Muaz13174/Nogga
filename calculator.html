@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+     <body>
+        <h1> Simple Calculator</h1>
+        <p>Perform all Operations using JavaScript</p>
+        <p id="add"></p>
+        <p id="subtract"></p>
+        <p id="multiply"></p>
+        <p id="divide"></p>
+
+        <script>
+            var num1 = 10;
+            var num2 = 5;
+
+            var add = num1 + num2;
+            var subtract = num1 - num2;
+            var multiply = num1 * num2;
+            var divide = num1 / num2;
+
+            document.getElementById("add").innerHTML = "Addition: " + num1 + " + " + num2 + " = " + add;
+            document.getElementById("subtract").innerHTML = "Subtraction: " + num1 + " - " + num2 + " = " + subtract;
+            document.getElementById("multiply").innerHTML = "Multiplication: " + num1 + " × " + num2 + " = " + multiply;
+            document.getElementById("divide").innerHTML = "Division: " + num1 + " ÷ " + num2 + " = " + divide;
+            
+        </script>
+     </body>
+</html>
